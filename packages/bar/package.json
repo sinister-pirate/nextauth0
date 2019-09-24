@@ -1,0 +1,16 @@
+{
+  "name": "@emmm/bar",
+  "version": "1.0.0",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-bootstrap": "0.32.4"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-bootstrap": "0.32.4"
+  },
+  "dependencies": {
+    "uuid": "^3.3.3"
+  }
+}
