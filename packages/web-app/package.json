@@ -11,6 +11,7 @@
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "3.4.1",
+    "dotenv": "^8.1.0",
     "next": "9.0.6",
     "next-transpile-modules": "^2.3.1",
     "node-sass": "^4.12.0",

@@ -36,6 +36,7 @@ export default function getClient(settings: IAuth0Settings): IOidcClientFactory 
         timeout: clientSettings.timeout
       };
     };
+    client[custom.clock_tolerance] = 5;
     return client;
   };
 }

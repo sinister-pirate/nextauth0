@@ -9,7 +9,7 @@ export function useAuth0(settings: IAuth0Settings): ISignInWithAuth0 {
   }
 
   return require('./instance.node').default(settings);
-};
+}
 
 export function withAuth0(nextConfig: any = {}, options: any = {}): any {
   return Object.assign({}, nextConfig, {
@@ -19,10 +19,10 @@ export function withAuth0(nextConfig: any = {}, options: any = {}): any {
       }
 
       if (typeof nextConfig.webpack === 'function') {
-        return nextConfig.webpack(config, options)
+        return nextConfig.webpack(config, options);
       }
 
       return config;
     }
   });
-};
+}
