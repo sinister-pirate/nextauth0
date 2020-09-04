@@ -14,7 +14,7 @@
     "dotenv": "^8.1.0",
     "next": "9.0.6",
     "next-transpile-modules": "^2.3.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.9.0",
     "react-bootstrap": "0.32.4",
     "react-dom": "^16.9.0"
